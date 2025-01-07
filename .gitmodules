@@ -1,0 +1,4 @@
+[submodule "RecoNIC"]
+	path = RecoNIC
+	url = https://github.com/Xilinx/RecoNIC.git
+	branch = au280_support
