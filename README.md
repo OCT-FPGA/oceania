@@ -1,7 +1,10 @@
 # Oceania
 <u><ins>**O**<ins></u>pen <u><ins>**C**<ins></u>loud r<u><ins>**E**<ins></u>configur<u><ins>**A**<ins></u>ble <u><ins>**NI**<ins></u>c offlo<u><ins>**A**<ins></u>ding (<u>**OCEANIA**</u>) is a project that uses [AMD RecoNIC Project](https://github.com/Xilinx/RecoNIC) to bring RDMA into the OCT project for researchers. RDMA technology offloads the traditional network stack onto the underlying NIC hardware, achieving zero-copy networking and reducing CPU involvement. Following the instructions, users can build the RecoNIC project for Alveo U280 FPGA in OCT.
 
+**March 31, 2025 Update: The Oceania project is successfully upgraded to use ERNIC 4.0 and QDMA 5.0. We are working with RecoNIC maintainer to upstream this upgrade and will be available to users soon!**
+
 **Note: The Oceania project currently utilizes RecoNIC with ERNIC 3.1. However, this version contains certain internal issues related to the ERNIC IP. For example, data verbs can be used individually multiple times, but switching back to RDMA Read operation from other RDMA operations will cause the RDMA core and DMA engine to go into a bad state. We are working on upgrading RecoNIC to use QDMA 5.0 and ERNIC 4.0. Stay tuned!**
+
 
 
 
