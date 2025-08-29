@@ -12,7 +12,7 @@
 
 If you are using a NERC build machine with the P4 tool installed. The environment has been set up for you. If you are not familiar with NERC follow these directions to create an account and setup an instance from [here](https://docs.google.com/document/d/1_JZ1K0lDdCTKP6TePhMbEBIyySO4jYZbF9-yBIQO07A/edit). If you are using your own machine, you should have the following:
 
-* Vivado 2021.2
+* Vivado 2023.1
 * vitis_net_p4 <br/>
 How to enable vitis_net_p4: (1) before Vivado installation, we need to '$ export VitisNetP4_Option_VISIBLE=true'; (2) When running Vivado installer, you should be able to see the option for Vitis Networking P4. Make sure you select the vitis_net_p4 option.
 * ERNIC license <br/>
