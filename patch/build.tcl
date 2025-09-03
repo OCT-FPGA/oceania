@@ -25,7 +25,7 @@ proc _do_impl {jobs {strategies ""}} {
         for {set i 1} {$i < [llength $strategies]} {incr i 1} {
             set r impl_[expr $i + 1]
             set s [lindex $strategies $i]
-            create_run $r -flow {Vivado Implementation 2021} -parent_run synth_1 -strategy "$s"
+            create_run $r -flow {Vivado Implementation 2023} -parent_run synth_1 -strategy "$s"
             lappend impl_runs $r
         }
         launch_runs $impl_runs -to_step write_bitstream -jobs $jobs
