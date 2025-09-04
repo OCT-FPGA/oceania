@@ -1,4 +1,4 @@
 [submodule "RecoNIC"]
 	path = RecoNIC
-	url = https://github.com/Xilinx/RecoNIC.git
+	url = https://github.com/OCT-FPGA/RecoNIC-OCT
 	branch = au280_support
