@@ -53,11 +53,6 @@ git clone https://github.com/Xilinx/XilinxBoardStore
 export BOARD_REPO=/your/path/to/XilinxBoardStore
 ```
 
-Copy build tcl script (includes launching multiple implementation tasks in Vivado) and timing constraint for AU280 to RecoNIC project, this helps meet timing requirement during placement and routing:
-```
-cp ../../patch/build.tcl ../base_nics/open-nic-shell/script/
-cp ../../patch/timing.xdc ../base_nics/open-nic-shell/constr/au280/
-```
 
 Build the bitstream now:
 ```
